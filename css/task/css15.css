@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: system-ui;
+}
+.main{
+    background-color: white;
+    min-height: fit-content;
+    min-width: fit-content;
+    max-width: 30%;
+    margin: 8% auto 0;
+}
+h2{
+    text-align: center;
+    padding-top: 10px;
+    font-stretch: expanded;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 5px 5px 12px rgb(32, 32, 32);
+    
+    
+}
+label{
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.inputs{
+    padding:10px 5px 10px;
+    display: flex;
+    flex-direction: column ;
+    border-bottom: 2px solid rgb(240, 240, 240);
+    border-top: 2px solid rgb(240, 240, 240) ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: emdium;
+}
+.btn{
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black;
+    color: white;
+    margin-bottom: 5px;
+    background-color: rgb(70, 70, 70);
+}
+input[type="text"],input[type="email"],input[type="date"],input[type="password"],input[type="password"]{
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 2.5% ;
+    border-color: white;
+    border-style: none;
+    border-radius: 25px;
+    padding: 15px;
+}
