@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="welcome.html" onsubmit="return validate()">
+        <input type="text" id="username" placeholder="Enter your username"><br><br>
+        <input type="text" id="email" placeholder="Enter your email"><br><br>
+        <input type="age" id="age" placeholder="Enter your age" pattern="[0-9]+"onkeypress="checknum(event)"><br><br>
+        <input type="password" id="password" placeholder="Enter your password"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <script src="js4.js"></script>
+</body>
+</html>
